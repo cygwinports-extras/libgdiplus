@@ -1,0 +1,11 @@
+--- origsrc/libgdiplus-2.0/configure.in	2008-07-15 12:20:12.000000000 -0500
++++ src/libgdiplus-2.0/configure.in	2008-10-06 01:31:39.830426200 -0500
+@@ -199,7 +199,7 @@
+ case "$host" in
+ 	i*86-*-*)
+ 		case $host_os in
+-		  solaris*)
++		  solaris*|cygwin*)
+ 			# On solaris 10 x86, gcc prints a warning saying 'visibility attribute not supported on this configuration; ignored', but linking fails.
+ 			have_visibility_hidden=no
+ 		esac

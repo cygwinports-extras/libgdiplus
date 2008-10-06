@@ -2,6 +2,13 @@ inherit mono
 
 DESCRIPTION="Mono GDI+ graphics library"
 
+PATCH_URI="
+	2.0-autoconf.patch
+	2.0-libtool22.patch
+	2.0-no-undefined.patch
+	2.0-visibility.patch
+"
+
 CYGCONF_ARGS="--disable-static --with-cairo=system"
 
 src_install() {
