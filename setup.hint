@@ -1,4 +1,4 @@
-category: Dotnet
-requires: glib2 libX11_6 libcairo2 libexif12 libfontconfig1 libfreetype26 libgif4 libjpeg62 libpng12 libtiff5
+category: DotNET
+requires: libcairo2 libexif12 libfontconfig1 libfreetype6 libgcc1 libgif4 libglib2.0_0 libjpeg7 libpng12 libtiff5 libX11_6
 sdesc: "Mono X11 GDI+ library"
 ldesc: "Mono X11 GDI+ library (for System.Drawing)"

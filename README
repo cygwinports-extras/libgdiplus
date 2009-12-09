@@ -3,93 +3,57 @@ libgdiplus
 Mono X11 GDI+ library (for System.Drawing)
 
 Runtime requirements:
-  cygwin-1.5.25-15
-  glib2-2.16.6-1
-  libcairo2-1.6.4-1
-  libexif12-0.6.16-2
-  libfontconfig1-2.6.0-1
-  libfreetype26-2.3.7-1
-  libgif4-4.1.6-1
-  libjpeg62-6b-12
-  libpng12-1.2.32-1
-  libtiff5-3.8.2-3
-  libX11_6-1.1.3-1
+  cygwin-1.7.0-67
+  libcairo2-1.8.8-1
+  libexif12-0.6.17-10
+  libfontconfig1-2.7.3-1
+  libfreetype6-2.3.11-1
+  libgcc1-4.3.4-1
+  libgif4-4.1.6-10
+  libglib2.0_0-2.22.2-1
+  libjpeg7-7-10
+  libpng12-1.2.35-10
+  libtiff5-3.8.2-11
+  libX11_6-1.3.2-2
 
 Build requirements:
 (besides corresponding -devel packages)
-  autoconf2.5-2.63-1
-  automake1.10-1.10.1-1
-  binutils-20080624-2
-  cygport-0.4.0-1
-  gawk-3.1.6-1
-  gcc-core-3.4.4-3
-  libtool-2.2.6a-1
-  make-3.81-1
-  pkg-config-0.23a-2
+  autoconf2.5-2.63-10
+  automake1.10-1.10.2-10
+  binutils-2.19.51-1
+  cygport-0.9.10-1
+  gawk-3.1.7-1
+  gcc4-core-4.3.4-1
+  libtool-2.2.7a-14
+  make-3.81-2
+  pkg-config-0.23b-10
   sed-4.1.5-2
 
 Canonical website:
   http://www.mono-project.com/Drawing
 
 Canonical download:
-  http://go-mono.com/sources-latest/
+  http://ftp.novell.com/pub/mono/sources/libgdiplus/
 
 -------------------------------------------
 
 Build instructions:
-  unpack libgdiplus-2.0-X-src.tar.bz2
+  unpack libgdiplus-2.4.2-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./libgdiplus-2.0-X.cygport all
+  cygport ./libgdiplus-2.4.2-X.cygport all
 
 This will create:
-  /usr/src/libgdiplus-2.0-X-src.tar.bz2
-  /usr/src/libgdiplus-2.0-X.tar.bz2
+  /usr/src/libgdiplus-2.4.2-X-src.tar.bz2
+  /usr/src/libgdiplus-2.4.2-X.tar.bz2
 
 -------------------------------------------
 
-Files included in the binary package:
-
-  /usr/bin/cyggdiplus.dll
-  /usr/lib/libgdiplus.la
-  /usr/lib/pkgconfig/libgdiplus.pc
-  /usr/share/doc/libgdiplus-2.0/AUTHORS
-  /usr/share/doc/libgdiplus-2.0/COPYING
-  /usr/share/doc/libgdiplus-2.0/ChangeLog
-  /usr/share/doc/libgdiplus-2.0/INSTALL
-  /usr/share/doc/libgdiplus-2.0/LICENSE
-  /usr/share/doc/libgdiplus-2.0/NEWS
-  /usr/share/doc/libgdiplus-2.0/README
-  /usr/share/doc/libgdiplus-2.0/TODO
-
-------------------
-
 Port Notes:
 
------ version 2.0-1 -----
-Version bump.
-
------ version 1.9-1 -----
-Version bump.
-
------ version 1.2.6-1 -----
-Version bump.
-
------ version 1.2.5.84180-1 -----
-Update to SVN snapshot to enable system cairo support.
-
------ version 1.2.4-1 -----
-Version bump.
-
------ version 1.2.3-1 -----
-Version bump.
-
------ version 1.2.2-1 -----
-Stable version bump.
-
------ version 1.1.16.1-1 -----
-Initial release for Cygwin.
+----- version 2.4.2-1 -----
+Initial release for Cygwin 1.7.
 
 
 Cygwin port maintained by:
