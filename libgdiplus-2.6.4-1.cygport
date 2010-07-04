@@ -9,10 +9,3 @@ PATCH_URI="
 "
 
 CYGCONF_ARGS="--disable-static --with-cairo=system"
-
-src_install() {
-	cd ${B}
-	cyginstall
-
-	sed -i -e 's!shouldnotlink=no!shouldnotlink=yes!' ${D}/usr/lib/libgdiplus.la
-}
