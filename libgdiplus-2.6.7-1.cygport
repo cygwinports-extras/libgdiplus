@@ -6,6 +6,7 @@ PATCH_URI="
 	2.0-libtool22.patch
 	2.0-no-undefined.patch
 	2.0-visibility.patch
+	2.6.7-libpng14.patch
 "
 
 CYGCONF_ARGS="--disable-static --with-cairo=system"

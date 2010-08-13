@@ -1,0 +1,19 @@
+--- origsrc/libgdiplus-2.6.7/configure.in	2010-08-13 02:45:24.175720700 -0500
++++ src/libgdiplus-2.6.7/configure.in	2010-08-13 02:59:40.927724200 -0500
+@@ -294,12 +294,12 @@ if test x$GIF != x; then
+ fi
+ 
+ dnl Test for libpng
+-    AC_MSG_CHECKING(for libpng12)
+-    if $PKG_CONFIG --exists libpng12 ; then
++    AC_MSG_CHECKING(for libpng14)
++    if $PKG_CONFIG --exists libpng14 ; then
+         AC_MSG_RESULT(yes)
+         PNG='png'
+-	PNG_DEP_CFLAGS_PACKAGES=libpng12
+-	LIBPNG=`$PKG_CONFIG --libs libpng12`
++	PNG_DEP_CFLAGS_PACKAGES=libpng14
++	LIBPNG=`$PKG_CONFIG --libs libpng14`
+     else
+       AC_MSG_RESULT(no)
+       AC_CHECK_LIB(png, png_read_info,
