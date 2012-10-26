@@ -4,7 +4,7 @@
  	wmfcodec.c			\
  	wmfcodec.h
  
-+libgdiplus_la_LDFLAGS = -module -avoid-version -no-undefined
++libgdiplus_la_LDFLAGS = -avoid-version -no-undefined
 +
  libgdiplus_la_LIBADD = $(GDIPLUS_LIBS)
  
